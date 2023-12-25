@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .history-item-card {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    border: 1px solid #cbd5e1;
+    padding-left: 10px;
+    margin-left: -40px;
+  }
+  .history-title-text {
+    color: #7e858e;
+    font-size: 16px;
+    width: 21vw;
+  }
+  .history-amount-text {
+    color: #7e858e;
+    font-size: 15px;
+    width: 21vw;
+  }
+  .history-type-text {
+    color: #7e858e;
+    font-size: 15px;
+    width: 21vw;
+  }
+
+  .delete-btn {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+  }
+  .delete-img {
+    height: 20px;
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .history-item-card {
+    display: flex;
+    flex-direction: row;
+    width: 48vw;
+    border: 1px solid #cbd5e1;
+    padding-left: 10px;
+    margin-left: -40px;
+  }
+  .history-title-text {
+    color: #7e858e;
+    font-size: 16px;
+    width: 14vw;
+  }
+  .history-amount-text {
+    color: #7e858e;
+    font-size: 15px;
+    width: 14vw;
+  }
+  .history-type-text {
+    color: #7e858e;
+    font-size: 15px;
+    width: 14vw;
+  }
+
+  .delete-btn {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+  }
+  .delete-img {
+    height: 20px;
+    text-align: end;
+  }
+}

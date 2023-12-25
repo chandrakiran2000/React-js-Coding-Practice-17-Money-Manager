@@ -1,0 +1,129 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .money-details-card {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .your-balance-card {
+    background-color: #ecfccb;
+    border: 2px solid #84cc16;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 90vw;
+    height: 130px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .your-income-card {
+    background-color: #cffafe;
+    border: 2px solid #06b6d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 90vw;
+    height: 130px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .your-expenses-card {
+    background-color: #ede9fe;
+    border: 2px solid #7c3aed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 90vw;
+    height: 130px;
+    padding: 5px;
+  }
+  .your-balance-img {
+    width: 70px;
+    height: 70px;
+  }
+  .balance-card {
+    margin-left: 20px;
+  }
+  .balance-text {
+    color: #475569;
+    font-size: 15px;
+  }
+  .balance-numbers {
+    color: #334155;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .your-balance-card {
+    background-color: #ecfccb;
+    border: 2px solid #84cc16;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 26vw;
+    height: 130px;
+    padding: 5px;
+  }
+
+  .your-income-card {
+    background-color: #cffafe;
+    border: 2px solid #06b6d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 26vw;
+    height: 130px;
+    padding: 5px;
+  }
+  .your-expenses-card {
+    background-color: #ede9fe;
+    border: 2px solid #7c3aed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 26vw;
+    height: 130px;
+    padding: 5px;
+  }
+  .your-balance-img {
+    width: 70px;
+    height: 70px;
+  }
+  .balance-card {
+    margin-left: 20px;
+  }
+  .balance-text {
+    color: #475569;
+    font-size: 15px;
+  }
+  .balance-numbers {
+    color: #334155;
+    font-size: 22px;
+  }
+}
